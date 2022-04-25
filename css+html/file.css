@@ -1,0 +1,37 @@
+body{
+    background-color: #4ac3fb;
+    
+}
+.one{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    right: 500px;
+    border-radius: 25% 25% 0 0;
+    z-index: 10;
+    
+}
+.small{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    top: 125px;
+    right: 45%;
+    left: 45%;
+    
+
+}
+
+.two{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 175px;
+    right: 450px;
+    transform: rotate(45deg);
+    z-index: 5;
+}
